@@ -1,0 +1,64 @@
+{
+	id: "5B4630BD3A79E9D5"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Simply click the check mark to begin"
+			description: [
+				"Welcome! This book will help guide you through your Minecraft journey. Should you lose it you can craft another so dont worry too much. Good Luck and Have Fun!"
+				"{image:ftbquests:textures/item/book.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "4F03D0B74D2D2D47"
+			tasks: [{
+				id: "561F2DCC887B493E"
+				type: "checkmark"
+				title: "Introduction"
+			}]
+			rewards: [{
+				id: "38CF56489FC31C9E"
+				type: "command"
+				icon: "minecraft:crafting_table"
+				team_reward: false
+				auto: "invisible"
+				command: "/say @p has started the game!"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["This pack allows for many play styles. It can be as advanced or basic as you want. If you only know Vanilla then it remains mostly untouched by mods and can be played as normal. If you would like to learn mods, just follow the quests and it will explain most mods."]
+			dependencies: ["4F03D0B74D2D2D47"]
+			hide: true
+			id: "215408F717615D59"
+			tasks: [{
+				id: "05A5AB4142A9BCF8"
+				type: "checkmark"
+				title: "Play styles"
+			}]
+			rewards: [{
+				id: "7F0859D8FE0D2EE0"
+				type: "item"
+				item: {
+					id: "snowyspirit:gingerbread_cookie"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Welcoming Gingerbread Cookie\"}"
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 3, 2022, 9:14:43 PM
+
+#forge:experience
+- sophisticatedcore:xp_still
+- cyclic:xpjuice
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- cyclic:biomass
+- cyclic:biomass_flowing
+- cyclic:honey
+- cyclic:honey_flowing
+- cyclic:xpjuice
+- cyclic:xpjuice_flowing
+
+#forge:slime
+- cyclic:slime
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:magma
+- cyclic:magma
+
+#forge:plantoil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid
+
+#forge:honey
+- inspirations:honey?
+- cyclic:honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion

@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "696E7C288A3210BF", title: "Cogs" }
+		{ id: "2E3809BF90250B75", title: "Caves" }
+		{ id: "4387BF2F673C50D4", title: "Kingdoms" }
+	]
+}

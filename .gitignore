@@ -1,0 +1,16 @@
+.idea/
+logs/
+crash-reports/
+music_sheets/
+saves/
+shaderpacks/
+XaeroWorldMap/
+usercache.json
+usernamecache.json
+servers.dat
+servers.dat_old
+natives/
+reauth.toml
+realms_persistence.json
+mods/
+resourcepacks/
