@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 3, 2022, 9:14:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 9, 2022, 1:15:27 PM
 
 #forge:cobblestone/mossy
 - minecraft:mossy_cobblestone
@@ -18,6 +18,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:nuggets/constantan
 - #forge:nuggets/electrum
 - #forge:nuggets/steel
+- create:copper_nugget
+- create:zinc_nugget
+- create:brass_nugget
+- create:experience_nugget
 - #forge:nuggets/neptunium
 
 #forge:glass/tinted
@@ -35,9 +39,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:plates/steel
 - #forge:plates/iron
 - #forge:plates/gold
+- create:copper_sheet
+- create:brass_sheet
+- create:iron_sheet
+- create:golden_sheet
 
 #forge:dyes/gray
 - minecraft:gray_dye
+
+#create:stone_types/veridium
+- create:cut_veridium
+- create:cut_veridium_stairs
+- create:cut_veridium_wall
+- create:polished_cut_veridium
+- create:polished_cut_veridium_stairs
+- create:polished_cut_veridium_wall
+- create:cut_veridium_bricks
+- create:cut_veridium_brick_stairs
+- create:cut_veridium_brick_wall
+- create:small_veridium_bricks
+- create:small_veridium_brick_stairs
+- create:small_veridium_brick_wall
+- create:layered_veridium
+- create:veridium_pillar
+
+#curios:quiver
+- nyfsquiver:basic_quiver
+- nyfsquiver:iron_quiver
+- nyfsquiver:copper_quiver
+- nyfsquiver:gold_quiver
+- nyfsquiver:diamond_quiver
+- nyfsquiver:netherite_quiver
 
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
@@ -82,6 +114,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/silver
 - immersiveengineering:ingot_silver
 
+#create:upright_on_belt
+- farmersdelight:milk_bottle
+- farmersdelight:hot_cocoa
+- farmersdelight:pie_crust
+- farmersdelight:apple_pie
+- farmersdelight:sweet_berry_cheesecake
+- farmersdelight:chocolate_pie
+- create:blaze_cake_base
+- create:blaze_cake
+- create:creative_blaze_cake
+- create:builders_tea
+- minecraft:glass_bottle
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+- minecraft:honey_bottle
+- minecraft:cake
+
 #terralith:spire/common_tools
 - minecraft:iron_pickaxe
 - minecraft:iron_shovel
@@ -95,8 +145,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass_panes/light_gray
 - minecraft:light_gray_stained_glass_pane
 
+#forge:beacon_payment
+- #create:create_ingots
+
 #forge:storage_blocks/nickel
 - immersiveengineering:storage_nickel
+
+#forge:vegetables/carrot
+- minecraft:carrot
 
 #aquaculture:tooltip
 - aquaculture:neptunium_fishing_rod
@@ -131,6 +187,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:pink_stained_glass
 
 #forge:chests
+- framedblocks:framed_chest
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
@@ -141,7 +198,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:azalea_trapped_chest
 - quark:blossom_chest
 - quark:blossom_trapped_chest
-- framedblocks:framed_chest
 - aquaculture:neptunes_bounty
 
 #forge:storage_blocks/emerald
@@ -155,6 +211,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:sheetmetals/nickel
 - immersiveengineering:sheetmetal_nickel
+
+#forge:salad_ingredients
+- #forge:salad_ingredients/cabbage
 
 #forge:glass/red
 - minecraft:red_stained_glass
@@ -699,6 +758,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:ingots/constantan
 - #forge:ingots/electrum
 - #forge:ingots/steel
+- #create:create_ingots
 - aquaculture:neptunium_ingot
 
 #forge:cooked_pheasant
@@ -726,6 +786,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:nether_wart
 
 #forge:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:sandstone
 - minecraft:sandstone
 - minecraft:cut_sandstone
 - minecraft:chiseled_sandstone
@@ -734,12 +797,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cut_red_sandstone
 - minecraft:chiseled_red_sandstone
 - minecraft:smooth_red_sandstone
-- minecraft:cut_sandstone
-- minecraft:chiseled_sandstone
-- minecraft:sandstone
 
 #forge:storage_blocks/copper
 - minecraft:copper_block
+
+#forge:milk/milk
+- minecraft:milk_bucket
 
 #forge:glass_panes/colorless
 - minecraft:glass_pane
@@ -752,11 +815,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:porkchop
 - minecraft:cooked_porkchop
 
+#forge:bread/wheat
+- minecraft:bread
+
 #supplementaries:pedestal_downright
 - minecraft:trident?
 
 #forge:raw_fishes
+- #forge:raw_fishes/cod
+- #forge:raw_fishes/salmon
+- #forge:raw_fishes/tropical_fish
 - betteranimalsplus:eel_meat_raw
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
 - aquaculture:atlantic_cod
 - aquaculture:blackfish
 - aquaculture:pacific_halibut
@@ -871,6 +943,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mcwdoors:metal_reinforced_door
 - mcwdoors:metal_windowed_door
 - mcwdoors:jail_door
+- framedblocks:framed_door
 - supplementaries:gold_door
 - supplementaries:netherite_door
 - supplementaries:silver_door
@@ -878,7 +951,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - snowyspirit:gingerbread_door
 - quark:azalea_door
 - quark:blossom_door
-- framedblocks:framed_door
 
 #snowyspirit:gingerbreads
 - snowyspirit:gingerbread
@@ -958,6 +1030,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - farmersdelight:honey_glazed_ham?
 - simplytea:cup_tea_chorus?
 
+#create:stone_types/granite
+- create:cut_granite
+- create:cut_granite_stairs
+- create:cut_granite_wall
+- create:polished_cut_granite
+- create:polished_cut_granite_stairs
+- create:polished_cut_granite_wall
+- create:cut_granite_bricks
+- create:cut_granite_brick_stairs
+- create:cut_granite_brick_wall
+- create:small_granite_bricks
+- create:small_granite_brick_stairs
+- create:small_granite_brick_wall
+- create:layered_granite
+- create:granite_pillar
+
+#forge:pasta/raw_pasta
+- farmersdelight:raw_pasta
+
+#forge:raw_meat
+- #forge:raw_beef
+- #forge:raw_chicken
+- #forge:raw_mutton
+- #forge:raw_pork
+- minecraft:rabbit
+
 #forge:glass/white
 - minecraft:white_stained_glass
 
@@ -983,6 +1081,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chalk:white_chalk?
 
 #forge:cooked_beef
+- minecraft:cooked_beef
+- farmersdelight:beef_patty
 - betteranimalsplus:venisoncooked
 
 #minecraft:fishes
@@ -1031,6 +1131,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts/wood
 - immersiveengineering:dust_wood
 
+#forge:tools/knives
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
+
 #balm:white_dyes
 - #forge:dyes/white?
 - minecraft:white_dye
@@ -1074,6 +1181,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - upgradednetherite:poison_upgraded_netherite_bow
 - upgradednetherite:phantom_upgraded_netherite_bow
 - upgradednetherite:feather_upgraded_netherite_bow
+
+#nyfsquiver:quiver_items/arrows
+- #minecraft:arrows
+- iceandfire:dragonbone_arrow?
 
 #curios:hands
 - cyclic:charm_attack_speed?
@@ -1190,6 +1301,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:charm_torch?
 - cyclic:charm_torch_cave?
 - cyclic:ender_book?
+
+#forge:crops/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
+
+#forge:nuggets/brass
+- create:brass_nugget
 
 #quark:shards
 - quark:clear_shard
@@ -1409,38 +1527,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - absentbydesign:wall_spruce_log
 - absentbydesign:wall_prismarine_bricks
 - absentbydesign:wall_dark_prismarine
-- supplementaries:blackstone_tile_wall
-- supplementaries:ash_bricks_wall
-- supplementaries:stone_tile_wall
-- quark:andesite_bricks_wall
-- quark:blackstone_bricks_wall
-- quark:blue_nether_bricks_wall
-- quark:calcite_bricks_wall
-- quark:calcite_wall
-- quark:cobblestone_bricks_wall
-- quark:diorite_bricks_wall
-- quark:dirt_bricks_wall
-- quark:dripstone_block_wall
-- quark:dripstone_bricks_wall
-- quark:granite_bricks_wall
-- quark:jasper_bricks_wall
-- quark:jasper_wall
-- quark:limestone_bricks_wall
-- quark:limestone_wall
-- quark:mossy_cobblestone_bricks_wall
-- quark:myalite_bricks_wall
-- quark:myalite_wall
-- quark:netherrack_bricks_wall
-- quark:permafrost_bricks_wall
-- quark:permafrost_wall
-- quark:red_sandstone_bricks_wall
-- quark:sandstone_bricks_wall
-- quark:shale_bricks_wall
-- quark:shale_wall
-- quark:soul_sandstone_bricks_wall
-- quark:soul_sandstone_wall
-- quark:tuff_bricks_wall
-- quark:tuff_wall
 - framedblocks:framed_wall
 - biomemakeover:red_mushroom_brick_wall
 - biomemakeover:brown_mushroom_brick_wall
@@ -1471,6 +1557,94 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - biomemakeover:dried_peat_bricks_wall
 - biomemakeover:polished_mesmerite_wall
 - biomemakeover:mesmerite_wall
+- supplementaries:blackstone_tile_wall
+- supplementaries:ash_bricks_wall
+- supplementaries:stone_tile_wall
+- create:cut_granite_wall
+- create:polished_cut_granite_wall
+- create:cut_granite_brick_wall
+- create:small_granite_brick_wall
+- create:cut_diorite_wall
+- create:polished_cut_diorite_wall
+- create:cut_diorite_brick_wall
+- create:small_diorite_brick_wall
+- create:cut_andesite_wall
+- create:polished_cut_andesite_wall
+- create:cut_andesite_brick_wall
+- create:small_andesite_brick_wall
+- create:cut_calcite_wall
+- create:polished_cut_calcite_wall
+- create:cut_calcite_brick_wall
+- create:small_calcite_brick_wall
+- create:cut_dripstone_wall
+- create:polished_cut_dripstone_wall
+- create:cut_dripstone_brick_wall
+- create:small_dripstone_brick_wall
+- create:cut_deepslate_wall
+- create:polished_cut_deepslate_wall
+- create:cut_deepslate_brick_wall
+- create:small_deepslate_brick_wall
+- create:cut_tuff_wall
+- create:polished_cut_tuff_wall
+- create:cut_tuff_brick_wall
+- create:small_tuff_brick_wall
+- create:cut_asurine_wall
+- create:polished_cut_asurine_wall
+- create:cut_asurine_brick_wall
+- create:small_asurine_brick_wall
+- create:cut_crimsite_wall
+- create:polished_cut_crimsite_wall
+- create:cut_crimsite_brick_wall
+- create:small_crimsite_brick_wall
+- create:cut_limestone_wall
+- create:polished_cut_limestone_wall
+- create:cut_limestone_brick_wall
+- create:small_limestone_brick_wall
+- create:cut_ochrum_wall
+- create:polished_cut_ochrum_wall
+- create:cut_ochrum_brick_wall
+- create:small_ochrum_brick_wall
+- create:cut_scoria_wall
+- create:polished_cut_scoria_wall
+- create:cut_scoria_brick_wall
+- create:small_scoria_brick_wall
+- create:cut_scorchia_wall
+- create:polished_cut_scorchia_wall
+- create:cut_scorchia_brick_wall
+- create:small_scorchia_brick_wall
+- create:cut_veridium_wall
+- create:polished_cut_veridium_wall
+- create:cut_veridium_brick_wall
+- create:small_veridium_brick_wall
+- quark:andesite_bricks_wall
+- quark:blackstone_bricks_wall
+- quark:blue_nether_bricks_wall
+- quark:calcite_bricks_wall
+- quark:calcite_wall
+- quark:cobblestone_bricks_wall
+- quark:diorite_bricks_wall
+- quark:dirt_bricks_wall
+- quark:dripstone_block_wall
+- quark:dripstone_bricks_wall
+- quark:granite_bricks_wall
+- quark:jasper_bricks_wall
+- quark:jasper_wall
+- quark:limestone_bricks_wall
+- quark:limestone_wall
+- quark:mossy_cobblestone_bricks_wall
+- quark:myalite_bricks_wall
+- quark:myalite_wall
+- quark:netherrack_bricks_wall
+- quark:permafrost_bricks_wall
+- quark:permafrost_wall
+- quark:red_sandstone_bricks_wall
+- quark:sandstone_bricks_wall
+- quark:shale_bricks_wall
+- quark:shale_wall
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_wall
+- quark:tuff_bricks_wall
+- quark:tuff_wall
 
 #aquaculture:tackle_box
 - minecraft:string
@@ -1496,6 +1670,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass/green
 - minecraft:green_stained_glass
+
+#itemfilters:filters
+- itemfilters:always_true
+- itemfilters:always_false
+- itemfilters:or
+- itemfilters:and
+- itemfilters:not
+- itemfilters:xor
+- itemfilters:tag
+- itemfilters:mod
+- itemfilters:item_group
+- itemfilters:id_regex
+- itemfilters:damage
+- itemfilters:block
+- itemfilters:max_count
+- itemfilters:strong_nbt
+- itemfilters:weak_nbt
+- itemfilters:custom
 
 #forge:storage_blocks/lead
 - immersiveengineering:storage_lead
@@ -1562,8 +1754,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:smooth_sandstone
 
 #forge:raw_chicken
+- minecraft:chicken
+- farmersdelight:chicken_cuts
 - betteranimalsplus:pheasantraw
 - betteranimalsplus:turkey_leg_raw
+- minecraft:chicken
 
 #forge:ingots/aluminum
 - immersiveengineering:ingot_aluminum
@@ -1581,8 +1776,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:azalea_fence
 - quark:blossom_fence
 
+#sereneseasons:summer_crops
+- farmersdelight:tomato_seeds
+- farmersdelight:rice
+
 #forge:rawsquid
 - betteranimalsplus:calamari_raw
+
+#create:stone_types/diorite
+- create:cut_diorite
+- create:cut_diorite_stairs
+- create:cut_diorite_wall
+- create:polished_cut_diorite
+- create:polished_cut_diorite_stairs
+- create:polished_cut_diorite_wall
+- create:cut_diorite_bricks
+- create:cut_diorite_brick_stairs
+- create:cut_diorite_brick_wall
+- create:small_diorite_bricks
+- create:small_diorite_brick_stairs
+- create:small_diorite_brick_wall
+- create:layered_diorite
+- create:diorite_pillar
 
 #forge:dyes/light_gray
 - minecraft:light_gray_dye
@@ -1615,6 +1830,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:storage_blocks/constantan
 - #forge:storage_blocks/electrum
 - #forge:storage_blocks/steel
+- create:raw_zinc_block
+- create:zinc_block
+- create:brass_block
 - #forge:storage_blocks/charcoal
 - #forge:storage_blocks/neptunium
 
@@ -1628,6 +1846,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:orange_stained_glass_pane
 
 #forge:milk
+- #forge:milk/milk
+- #forge:milk/milk_bottle
+- minecraft:milk_bucket
+- #forge:milk/milk_bottle
 - minecraft:milk_bucket
 
 #minecraft:beacon_payment_items
@@ -1681,8 +1903,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:coal_ore
 - minecraft:deepslate_coal_ore
 
+#create:stone_types/scorchia
+- create:cut_scorchia
+- create:cut_scorchia_stairs
+- create:cut_scorchia_wall
+- create:polished_cut_scorchia
+- create:polished_cut_scorchia_stairs
+- create:polished_cut_scorchia_wall
+- create:cut_scorchia_bricks
+- create:cut_scorchia_brick_stairs
+- create:cut_scorchia_brick_wall
+- create:small_scorchia_bricks
+- create:small_scorchia_brick_stairs
+- create:small_scorchia_brick_wall
+- create:layered_scorchia
+- create:scorchia_pillar
+
 #forge:raw_beef
+- minecraft:beef
+- farmersdelight:minced_beef
 - betteranimalsplus:venisonraw
+- minecraft:beef
 
 #forge:plates/electrum
 - immersiveengineering:plate_electrum
@@ -1696,12 +1937,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:spruce_trapdoor
 - minecraft:crimson_trapdoor
 - minecraft:warped_trapdoor
-- quark:azalea_trapdoor
-- quark:blossom_trapdoor
 - biomemakeover:blighted_balsa_trapdoor
 - biomemakeover:willow_trapdoor
 - biomemakeover:swamp_cypress_trapdoor
 - biomemakeover:ancient_oak_trapdoor
+- quark:azalea_trapdoor
+- quark:blossom_trapdoor
+
+#create:valve_handles
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+
+#forge:cooked_pork
+- minecraft:cooked_porkchop
+- farmersdelight:cooked_bacon
 
 #forge:storage_blocks/coal
 - minecraft:coal_block
@@ -1716,6 +1980,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:wires/steel
 - #forge:wires/lead
 
+#forge:ingots/brass
+- create:brass_ingot
+
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
 
@@ -1726,6 +1993,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/amethyst
 - minecraft:amethyst_block
+
+#forge:cooked_mutton
+- minecraft:cooked_mutton
+- farmersdelight:cooked_mutton_chops
 
 #minecraft:stairs
 - #minecraft:wooden_stairs
@@ -1859,9 +2130,95 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - absentbydesign:stairs_wool_silver
 - absentbydesign:stairs_wool_white
 - absentbydesign:stairs_wool_yellow
+- framedblocks:framed_stairs
+- biomemakeover:red_mushroom_brick_stairs
+- biomemakeover:brown_mushroom_brick_stairs
+- biomemakeover:glowshroom_stem_brick_stairs
+- biomemakeover:mushroom_stem_brick_stairs
+- biomemakeover:purple_glowshroom_brick_stairs
+- biomemakeover:green_glowshroom_brick_stairs
+- biomemakeover:orange_glowshroom_brick_stairs
+- biomemakeover:blighted_cobblestone_stairs
+- biomemakeover:blighted_stone_bricks_stairs
+- biomemakeover:terracotta_brick_stairs
+- biomemakeover:black_terracotta_brick_stairs
+- biomemakeover:red_terracotta_brick_stairs
+- biomemakeover:green_terracotta_brick_stairs
+- biomemakeover:brown_terracotta_brick_stairs
+- biomemakeover:blue_terracotta_brick_stairs
+- biomemakeover:purple_terracotta_brick_stairs
+- biomemakeover:cyan_terracotta_brick_stairs
+- biomemakeover:light_gray_terracotta_brick_stairs
+- biomemakeover:gray_terracotta_brick_stairs
+- biomemakeover:pink_terracotta_brick_stairs
+- biomemakeover:lime_terracotta_brick_stairs
+- biomemakeover:yellow_terracotta_brick_stairs
+- biomemakeover:light_blue_terracotta_brick_stairs
+- biomemakeover:magenta_terracotta_brick_stairs
+- biomemakeover:orange_terracotta_brick_stairs
+- biomemakeover:white_terracotta_brick_stairs
+- biomemakeover:dried_peat_bricks_stairs
+- biomemakeover:polished_mesmerite_stairs
+- biomemakeover:mesmerite_stairs
 - supplementaries:blackstone_tile_stairs
 - supplementaries:ash_bricks_stairs
 - supplementaries:stone_tile_stairs
+- create:cut_granite_stairs
+- create:polished_cut_granite_stairs
+- create:cut_granite_brick_stairs
+- create:small_granite_brick_stairs
+- create:cut_diorite_stairs
+- create:polished_cut_diorite_stairs
+- create:cut_diorite_brick_stairs
+- create:small_diorite_brick_stairs
+- create:cut_andesite_stairs
+- create:polished_cut_andesite_stairs
+- create:cut_andesite_brick_stairs
+- create:small_andesite_brick_stairs
+- create:cut_calcite_stairs
+- create:polished_cut_calcite_stairs
+- create:cut_calcite_brick_stairs
+- create:small_calcite_brick_stairs
+- create:cut_dripstone_stairs
+- create:polished_cut_dripstone_stairs
+- create:cut_dripstone_brick_stairs
+- create:small_dripstone_brick_stairs
+- create:cut_deepslate_stairs
+- create:polished_cut_deepslate_stairs
+- create:cut_deepslate_brick_stairs
+- create:small_deepslate_brick_stairs
+- create:cut_tuff_stairs
+- create:polished_cut_tuff_stairs
+- create:cut_tuff_brick_stairs
+- create:small_tuff_brick_stairs
+- create:cut_asurine_stairs
+- create:polished_cut_asurine_stairs
+- create:cut_asurine_brick_stairs
+- create:small_asurine_brick_stairs
+- create:cut_crimsite_stairs
+- create:polished_cut_crimsite_stairs
+- create:cut_crimsite_brick_stairs
+- create:small_crimsite_brick_stairs
+- create:cut_limestone_stairs
+- create:polished_cut_limestone_stairs
+- create:cut_limestone_brick_stairs
+- create:small_limestone_brick_stairs
+- create:cut_ochrum_stairs
+- create:polished_cut_ochrum_stairs
+- create:cut_ochrum_brick_stairs
+- create:small_ochrum_brick_stairs
+- create:cut_scoria_stairs
+- create:polished_cut_scoria_stairs
+- create:cut_scoria_brick_stairs
+- create:small_scoria_brick_stairs
+- create:cut_scorchia_stairs
+- create:polished_cut_scorchia_stairs
+- create:cut_scorchia_brick_stairs
+- create:small_scorchia_brick_stairs
+- create:cut_veridium_stairs
+- create:polished_cut_veridium_stairs
+- create:cut_veridium_brick_stairs
+- create:small_veridium_brick_stairs
 - quark:andesite_bricks_stairs
 - quark:azalea_planks_stairs
 - quark:blackstone_bricks_stairs
@@ -1923,36 +2280,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:tuff_stairs
 - quark:white_shingles_stairs
 - quark:yellow_shingles_stairs
-- framedblocks:framed_stairs
-- biomemakeover:red_mushroom_brick_stairs
-- biomemakeover:brown_mushroom_brick_stairs
-- biomemakeover:glowshroom_stem_brick_stairs
-- biomemakeover:mushroom_stem_brick_stairs
-- biomemakeover:purple_glowshroom_brick_stairs
-- biomemakeover:green_glowshroom_brick_stairs
-- biomemakeover:orange_glowshroom_brick_stairs
-- biomemakeover:blighted_cobblestone_stairs
-- biomemakeover:blighted_stone_bricks_stairs
-- biomemakeover:terracotta_brick_stairs
-- biomemakeover:black_terracotta_brick_stairs
-- biomemakeover:red_terracotta_brick_stairs
-- biomemakeover:green_terracotta_brick_stairs
-- biomemakeover:brown_terracotta_brick_stairs
-- biomemakeover:blue_terracotta_brick_stairs
-- biomemakeover:purple_terracotta_brick_stairs
-- biomemakeover:cyan_terracotta_brick_stairs
-- biomemakeover:light_gray_terracotta_brick_stairs
-- biomemakeover:gray_terracotta_brick_stairs
-- biomemakeover:pink_terracotta_brick_stairs
-- biomemakeover:lime_terracotta_brick_stairs
-- biomemakeover:yellow_terracotta_brick_stairs
-- biomemakeover:light_blue_terracotta_brick_stairs
-- biomemakeover:magenta_terracotta_brick_stairs
-- biomemakeover:orange_terracotta_brick_stairs
-- biomemakeover:white_terracotta_brick_stairs
-- biomemakeover:dried_peat_bricks_stairs
-- biomemakeover:polished_mesmerite_stairs
-- biomemakeover:mesmerite_stairs
 
 #c:eggs
 - minecraft:egg
@@ -1960,18 +2287,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - betteranimalsplus:turkey_egg
 - betteranimalsplus:goose_egg
 
+#forge:vegetables/tomato
+- farmersdelight:tomato
+
 #minecraft:logs
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
-- quark:azalea_log
-- quark:stripped_azalea_log
-- quark:azalea_wood
-- quark:stripped_azalea_wood
-- quark:blossom_log
-- quark:stripped_blossom_log
-- quark:blossom_wood
-- quark:stripped_blossom_wood
 - biomemakeover:blighted_balsa_log
 - biomemakeover:stripped_blighted_balsa_log
 - biomemakeover:blighted_balsa_wood
@@ -1988,6 +2310,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - biomemakeover:stripped_ancient_oak_log
 - biomemakeover:ancient_oak_wood
 - biomemakeover:stripped_ancient_oak_wood
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
+
+#forge:cooked_bacon
+- farmersdelight:cooked_bacon
 
 #forge:sandstone/red
 - minecraft:red_sandstone
@@ -2000,6 +2333,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #lootr:shulkers
 - lootr:lootr_shulker
+
+#create:stone_types/andesite
+- create:cut_andesite
+- create:cut_andesite_stairs
+- create:cut_andesite_wall
+- create:polished_cut_andesite
+- create:polished_cut_andesite_stairs
+- create:polished_cut_andesite_wall
+- create:cut_andesite_bricks
+- create:cut_andesite_brick_stairs
+- create:cut_andesite_brick_wall
+- create:small_andesite_bricks
+- create:small_andesite_brick_stairs
+- create:small_andesite_brick_wall
+- create:layered_andesite
+- create:andesite_pillar
 
 #forge:slag
 - immersiveengineering:slag
@@ -2019,6 +2368,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:slab_treated_wood_horizontal
 - immersiveengineering:slab_treated_wood_vertical
 - immersiveengineering:slab_treated_wood_packaged
+
+#forge:seeds/rice
+- farmersdelight:rice
 
 #forge:jolly_boxes/large_present_single_stack
 - aquaculture:neptunium_ingot
@@ -2175,22 +2527,55 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mcwdoors:acacia_nether_door
 - mcwdoors:dark_oak_nether_door
 - mcwdoors:warped_nether_door
-- quark:azalea_door
-- quark:blossom_door
 - biomemakeover:blighted_balsa_door
 - biomemakeover:willow_door
 - biomemakeover:swamp_cypress_door
 - biomemakeover:ancient_oak_door
+- quark:azalea_door
+- quark:blossom_door
 
 #minecraft:emerald_ores
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
+
+#sereneseasons:autumn_crops
+- farmersdelight:cabbage_seeds
+- farmersdelight:onion
+- farmersdelight:rice
+
+#create:stone_types/deepslate
+- create:cut_deepslate
+- create:cut_deepslate_stairs
+- create:cut_deepslate_wall
+- create:polished_cut_deepslate
+- create:polished_cut_deepslate_stairs
+- create:polished_cut_deepslate_wall
+- create:cut_deepslate_bricks
+- create:cut_deepslate_brick_stairs
+- create:cut_deepslate_brick_wall
+- create:small_deepslate_bricks
+- create:small_deepslate_brick_stairs
+- create:small_deepslate_brick_wall
+- create:layered_deepslate
+- create:deepslate_pillar
 
 #forge:ingots/constantan
 - immersiveengineering:ingot_constantan
 
 #forge:glass/purple
 - minecraft:purple_stained_glass
+
+#engineersdecor:brick_blocks
+- minecraft:bricks
+- minecraft:nether_bricks
+
+#forge:tools/shovels
+- minecraft:wooden_shovel
+- minecraft:stone_shovel
+- minecraft:iron_shovel
+- minecraft:diamond_shovel
+- minecraft:golden_shovel
+- minecraft:netherite_shovel
 
 #forge:dyes/magenta
 - minecraft:magenta_dye
@@ -2453,6 +2838,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:permafrost
 - minecraft:blackstone
 
+#forge:raw_fishes/salmon
+- minecraft:salmon
+- farmersdelight:salmon_slice
+
 #immersiveengineering:toolbox/wiring
 - immersiveengineering:wirecoil_copper
 - immersiveengineering:wirecoil_electrum
@@ -2490,6 +2879,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/iron
 - minecraft:iron_ingot
 
+#forge:crops/rice
+- farmersdelight:rice
+
 #forge:dyes/purple
 - minecraft:purple_dye
 
@@ -2524,6 +2916,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:deepslate_ore_silver
 - immersiveengineering:deepslate_ore_nickel
 - immersiveengineering:deepslate_ore_uranium
+- create:deepslate_zinc_ore
 
 #forge:cookedfish
 - betteranimalsplus:eel_meat_cooked
@@ -2564,6 +2957,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gems/prismarine
 - minecraft:prismarine_crystals
 
+#farmersdelight:cabbage_roll_ingredients
+- #forge:raw_pork
+- #forge:raw_fishes
+- #forge:raw_chicken
+- #forge:raw_beef
+- #forge:raw_mutton
+- #forge:eggs
+- #forge:mushrooms
+- minecraft:carrot
+- minecraft:potato
+- minecraft:beetroot
+
 #minecraft:iron_ores
 - minecraft:iron_ore
 - minecraft:deepslate_iron_ore
@@ -2587,6 +2992,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:raw_materials/silver
 - #forge:raw_materials/nickel
 - #forge:raw_materials/uranium
+- create:raw_zinc
 
 #forge:plants
 - #forge:vines
@@ -2696,6 +3102,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - byg:short_grass?
 - byg:clover_patch?
 
+#create:stone_types/scoria
+- create:cut_scoria
+- create:cut_scoria_stairs
+- create:cut_scoria_wall
+- create:polished_cut_scoria
+- create:polished_cut_scoria_stairs
+- create:polished_cut_scoria_wall
+- create:cut_scoria_bricks
+- create:cut_scoria_brick_stairs
+- create:cut_scoria_brick_wall
+- create:small_scoria_bricks
+- create:small_scoria_brick_stairs
+- create:small_scoria_brick_wall
+- create:layered_scoria
+- create:scoria_pillar
+
+#domesticationinnovation:pet_beds
+- domesticationinnovation:pet_bed_white
+- domesticationinnovation:pet_bed_orange
+- domesticationinnovation:pet_bed_magenta
+- domesticationinnovation:pet_bed_light_blue
+- domesticationinnovation:pet_bed_yellow
+- domesticationinnovation:pet_bed_lime
+- domesticationinnovation:pet_bed_pink
+- domesticationinnovation:pet_bed_gray
+- domesticationinnovation:pet_bed_light_gray
+- domesticationinnovation:pet_bed_cyan
+- domesticationinnovation:pet_bed_purple
+- domesticationinnovation:pet_bed_blue
+- domesticationinnovation:pet_bed_brown
+- domesticationinnovation:pet_bed_green
+- domesticationinnovation:pet_bed_red
+- domesticationinnovation:pet_bed_black
+
 #forge:dusts/steel
 - immersiveengineering:dust_steel
 
@@ -2716,14 +3156,44 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:soul_campfire
 - supplementaries:sconce_soul
 
+#forge:ingots/zinc
+- create:zinc_ingot
+
 #forge:cooked_eggs
+- farmersdelight:fried_egg
 - betteranimalsplus:fried_egg
+- vanillacookbook:cooked_egg
+
+#farmersdelight:canvas_signs
+- farmersdelight:canvas_sign
+- farmersdelight:white_canvas_sign
+- farmersdelight:orange_canvas_sign
+- farmersdelight:magenta_canvas_sign
+- farmersdelight:light_blue_canvas_sign
+- farmersdelight:yellow_canvas_sign
+- farmersdelight:lime_canvas_sign
+- farmersdelight:pink_canvas_sign
+- farmersdelight:gray_canvas_sign
+- farmersdelight:light_gray_canvas_sign
+- farmersdelight:cyan_canvas_sign
+- farmersdelight:purple_canvas_sign
+- farmersdelight:blue_canvas_sign
+- farmersdelight:brown_canvas_sign
+- farmersdelight:green_canvas_sign
+- farmersdelight:red_canvas_sign
+- farmersdelight:black_canvas_sign
 
 #forge:raw_materials/silver
 - immersiveengineering:raw_silver
 
+#forge:nuggets/zinc
+- create:zinc_nugget
+
 #forge:glass/black
 - minecraft:black_stained_glass
+
+#forge:grain/wheat
+- minecraft:wheat
 
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
@@ -2818,12 +3288,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
-- quark:azalea_planks_stairs
-- quark:blossom_planks_stairs
 - biomemakeover:blighted_balsa_stairs
 - biomemakeover:willow_stairs
 - biomemakeover:swamp_cypress_stairs
 - biomemakeover:ancient_oak_stairs
+- quark:azalea_planks_stairs
+- quark:blossom_planks_stairs
 
 #forge:rawvenison
 - betteranimalsplus:venisonraw
@@ -2845,6 +3315,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_carpet
 - minecraft:red_carpet
 - minecraft:black_carpet
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
 
 #minecraft:wooden_buttons
 - minecraft:oak_button
@@ -2855,12 +3327,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_button
 - minecraft:crimson_button
 - minecraft:warped_button
-- quark:azalea_button
-- quark:blossom_button
 - biomemakeover:blighted_balsa_button
 - biomemakeover:willow_button
 - biomemakeover:swamp_cypress_button
 - biomemakeover:ancient_oak_button
+- quark:azalea_button
+- quark:blossom_button
+
+#forge:tools
+- #forge:tools/axes
+- #forge:tools/knives
+- #forge:tools/pickaxes
+- #forge:tools/shovels
 
 #forge:storage_blocks/glowstone
 - minecraft:glowstone
@@ -2887,14 +3365,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/orange
 - minecraft:orange_stained_glass
 
+#forge:storage_blocks/raw_zinc
+- create:raw_zinc_block
+
 #forge:dyes/green
 - minecraft:green_dye
 
 #cyclic:disenchanter_immune
 - quark:ancient_tome?
 
+#forge:raw_mutton
+- minecraft:mutton
+- farmersdelight:mutton_chops
+- minecraft:mutton
+
 #forge:plates/gold
 - immersiveengineering:plate_gold
+- create:golden_sheet
+
+#forge:crops/onion
+- farmersdelight:onion
 
 #minecraft:slabs
 - #minecraft:wooden_slabs
@@ -3032,9 +3522,95 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - absentbydesign:slab_wool_silver
 - absentbydesign:slab_wool_white
 - absentbydesign:slab_wool_yellow
+- framedblocks:framed_slab
+- biomemakeover:red_mushroom_brick_slab
+- biomemakeover:brown_mushroom_brick_slab
+- biomemakeover:glowshroom_stem_brick_slab
+- biomemakeover:mushroom_stem_brick_slab
+- biomemakeover:purple_glowshroom_brick_slab
+- biomemakeover:green_glowshroom_brick_slab
+- biomemakeover:orange_glowshroom_brick_slab
+- biomemakeover:blighted_cobblestone_slab
+- biomemakeover:blighted_stone_bricks_slab
+- biomemakeover:terracotta_brick_slab
+- biomemakeover:black_terracotta_brick_slab
+- biomemakeover:red_terracotta_brick_slab
+- biomemakeover:green_terracotta_brick_slab
+- biomemakeover:brown_terracotta_brick_slab
+- biomemakeover:blue_terracotta_brick_slab
+- biomemakeover:purple_terracotta_brick_slab
+- biomemakeover:cyan_terracotta_brick_slab
+- biomemakeover:light_gray_terracotta_brick_slab
+- biomemakeover:gray_terracotta_brick_slab
+- biomemakeover:pink_terracotta_brick_slab
+- biomemakeover:lime_terracotta_brick_slab
+- biomemakeover:yellow_terracotta_brick_slab
+- biomemakeover:light_blue_terracotta_brick_slab
+- biomemakeover:magenta_terracotta_brick_slab
+- biomemakeover:orange_terracotta_brick_slab
+- biomemakeover:white_terracotta_brick_slab
+- biomemakeover:dried_peat_bricks_slab
+- biomemakeover:mesmerite_slab
+- biomemakeover:polished_mesmerite_slab
 - supplementaries:checker_slab
 - supplementaries:stone_tile_slab
 - supplementaries:blackstone_tile_slab
+- create:cut_granite_slab
+- create:polished_cut_granite_slab
+- create:cut_granite_brick_slab
+- create:small_granite_brick_slab
+- create:cut_diorite_slab
+- create:polished_cut_diorite_slab
+- create:cut_diorite_brick_slab
+- create:small_diorite_brick_slab
+- create:cut_andesite_slab
+- create:polished_cut_andesite_slab
+- create:cut_andesite_brick_slab
+- create:small_andesite_brick_slab
+- create:cut_calcite_slab
+- create:polished_cut_calcite_slab
+- create:cut_calcite_brick_slab
+- create:small_calcite_brick_slab
+- create:cut_dripstone_slab
+- create:polished_cut_dripstone_slab
+- create:cut_dripstone_brick_slab
+- create:small_dripstone_brick_slab
+- create:cut_deepslate_slab
+- create:polished_cut_deepslate_slab
+- create:cut_deepslate_brick_slab
+- create:small_deepslate_brick_slab
+- create:cut_tuff_slab
+- create:polished_cut_tuff_slab
+- create:cut_tuff_brick_slab
+- create:small_tuff_brick_slab
+- create:cut_asurine_slab
+- create:polished_cut_asurine_slab
+- create:cut_asurine_brick_slab
+- create:small_asurine_brick_slab
+- create:cut_crimsite_slab
+- create:polished_cut_crimsite_slab
+- create:cut_crimsite_brick_slab
+- create:small_crimsite_brick_slab
+- create:cut_limestone_slab
+- create:polished_cut_limestone_slab
+- create:cut_limestone_brick_slab
+- create:small_limestone_brick_slab
+- create:cut_ochrum_slab
+- create:polished_cut_ochrum_slab
+- create:cut_ochrum_brick_slab
+- create:small_ochrum_brick_slab
+- create:cut_scoria_slab
+- create:polished_cut_scoria_slab
+- create:cut_scoria_brick_slab
+- create:small_scoria_brick_slab
+- create:cut_scorchia_slab
+- create:polished_cut_scorchia_slab
+- create:cut_scorchia_brick_slab
+- create:small_scorchia_brick_slab
+- create:cut_veridium_slab
+- create:polished_cut_veridium_slab
+- create:cut_veridium_brick_slab
+- create:small_veridium_brick_slab
 - quark:andesite_bricks_slab
 - quark:azalea_planks_slab
 - quark:blackstone_bricks_slab
@@ -3097,36 +3673,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:tuff_slab
 - quark:white_shingles_slab
 - quark:yellow_shingles_slab
-- framedblocks:framed_slab
-- biomemakeover:red_mushroom_brick_slab
-- biomemakeover:brown_mushroom_brick_slab
-- biomemakeover:glowshroom_stem_brick_slab
-- biomemakeover:mushroom_stem_brick_slab
-- biomemakeover:purple_glowshroom_brick_slab
-- biomemakeover:green_glowshroom_brick_slab
-- biomemakeover:orange_glowshroom_brick_slab
-- biomemakeover:blighted_cobblestone_slab
-- biomemakeover:blighted_stone_bricks_slab
-- biomemakeover:terracotta_brick_slab
-- biomemakeover:black_terracotta_brick_slab
-- biomemakeover:red_terracotta_brick_slab
-- biomemakeover:green_terracotta_brick_slab
-- biomemakeover:brown_terracotta_brick_slab
-- biomemakeover:blue_terracotta_brick_slab
-- biomemakeover:purple_terracotta_brick_slab
-- biomemakeover:cyan_terracotta_brick_slab
-- biomemakeover:light_gray_terracotta_brick_slab
-- biomemakeover:gray_terracotta_brick_slab
-- biomemakeover:pink_terracotta_brick_slab
-- biomemakeover:lime_terracotta_brick_slab
-- biomemakeover:yellow_terracotta_brick_slab
-- biomemakeover:light_blue_terracotta_brick_slab
-- biomemakeover:magenta_terracotta_brick_slab
-- biomemakeover:orange_terracotta_brick_slab
-- biomemakeover:white_terracotta_brick_slab
-- biomemakeover:dried_peat_bricks_slab
-- biomemakeover:mesmerite_slab
-- biomemakeover:polished_mesmerite_slab
 
 #supplementaries:pedestal_upright
 - minecraft:wooden_sword?
@@ -3168,6 +3714,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:cooked_eel
 - betteranimalsplus:eel_meat_cooked
 
+#vanillacookbook:easter_egg_items
+- vanillacookbook:chocolate
+
 #forge:dyes/lime
 - minecraft:lime_dye
 
@@ -3200,6 +3749,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:plates/iron
 - immersiveengineering:plate_iron
+- create:iron_sheet
 
 #forge:shulker_boxes
 - minecraft:shulker_box
@@ -3219,6 +3769,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_shulker_box
 - minecraft:white_shulker_box
 - minecraft:yellow_shulker_box
+
+#forge:raw_pork
+- minecraft:porkchop
+- farmersdelight:bacon
+- minecraft:porkchop
 
 #lootr:containers
 - #lootr:barrels
@@ -3240,6 +3795,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #immersiveengineering:tools/hammers
 - immersiveengineering:hammer
+
+#create:stone_types/tuff
+- create:cut_tuff
+- create:cut_tuff_stairs
+- create:cut_tuff_wall
+- create:polished_cut_tuff
+- create:polished_cut_tuff_stairs
+- create:polished_cut_tuff_wall
+- create:cut_tuff_bricks
+- create:cut_tuff_brick_stairs
+- create:cut_tuff_brick_wall
+- create:small_tuff_bricks
+- create:small_tuff_brick_stairs
+- create:small_tuff_brick_wall
+- create:layered_tuff
+- create:tuff_pillar
 
 #forge:books
 - minecraft:book
@@ -3278,6 +3849,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/clay
 - minecraft:clay
 
+#forge:seeds/cabbage
+- farmersdelight:cabbage_seeds
+
 #forge:ingots/hop_graphite
 - immersiveengineering:ingot_hop_graphite
 
@@ -3303,8 +3877,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lilac
 - minecraft:peony
 - minecraft:rose_bush
+- farmersdelight:wild_rice
 - biomemakeover:swamp_azalea
 - biomemakeover:marigold
+
+#create:create_ingots
+- create:zinc_ingot
+- create:brass_ingot
 
 #forge:bookshelves
 - minecraft:bookshelf
@@ -3321,6 +3900,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #aquaculture:bobber
 - aquaculture:bobber
 
+#create:stone_types/calcite
+- create:cut_calcite
+- create:cut_calcite_stairs
+- create:cut_calcite_wall
+- create:polished_cut_calcite
+- create:polished_cut_calcite_stairs
+- create:polished_cut_calcite_wall
+- create:cut_calcite_bricks
+- create:cut_calcite_brick_stairs
+- create:cut_calcite_brick_wall
+- create:small_calcite_bricks
+- create:small_calcite_brick_stairs
+- create:small_calcite_brick_wall
+- create:layered_calcite
+- create:calcite_pillar
+
 #forge:ores_in_ground/stone
 - minecraft:coal_ore
 - minecraft:copper_ore
@@ -3335,6 +3930,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:ore_silver
 - immersiveengineering:ore_nickel
 - immersiveengineering:ore_uranium
+- create:zinc_ore
 
 #balm:orange_dyes
 - #forge:dyes/orange?
@@ -3372,6 +3968,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:cooked_crab
 - betteranimalsplus:crab_meat_cooked
 
+#farmersdelight:offhand_equipment
+- minecraft:shield
+- create:extendo_grip?
+
 #minecraft:dirt
 - minecraft:dirt
 - minecraft:grass_block
@@ -3391,13 +3991,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:netherite_pickaxe
 - minecraft:stone_pickaxe
 - minecraft:wooden_pickaxe
-- immersiveengineering:pickaxe_steel
 - cyclic:crystal_pickaxe
 - cyclic:emerald_pickaxe
 - cyclic:copper_pickaxe
 - cyclic:amethyst_pickaxe
 - cyclic:netherbrick_pickaxe
 - cyclic:sandstone_pickaxe
+- immersiveengineering:pickaxe_steel
+- quark:pickarang
+- quark:flamerang
 
 #upgradednetherite:upgraded_netherite_sword
 - upgradednetherite:gold_upgraded_netherite_sword
@@ -3468,6 +4070,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - forbidden_arcanus:arcane_golden_chain?
 
 #forge:eggs
+- minecraft:egg
 - betteranimalsplus:pheasant_egg
 - betteranimalsplus:turkey_egg
 - betteranimalsplus:goose_egg
@@ -3495,6 +4098,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/black
 - minecraft:black_dye
+
+#forge:raw_fishes/tropical_fish
+- minecraft:tropical_fish
 
 #forge:dusts/glowstone
 - minecraft:glowstone_dust
@@ -3538,8 +4144,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:black_wool
 
 #forge:glass/colorless
-- minecraft:glass
 - cyclic:glass_connected?
+- minecraft:glass
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+
+#forge:cooked_fishes/cod
+- minecraft:cooked_cod
+- farmersdelight:cooked_cod_slice
+
+#forge:vegetables/beetroot
+- minecraft:beetroot
 
 #forge:raw_venison
 - betteranimalsplus:venisonraw
@@ -3562,12 +4179,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:dark_glass?
 - cyclic:dark_glass_connected?
 
+#forge:fungi
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+
+#forge:ores/zinc
+- create:zinc_ore
+- create:deepslate_zinc_ore
+
 #forge:ores/netherite_scrap
 - minecraft:ancient_debris
 
 #forge:nuggets/copper
-- immersiveengineering:nugget_copper
 - cyclic:copper_nugget
+- immersiveengineering:nugget_copper
+- create:copper_nugget
 
 #forge:sawblades
 - immersiveengineering:sawblade
@@ -3601,6 +4227,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:raw_materials/lead
 - immersiveengineering:raw_lead
+
+#forge:salad_ingredients/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
 
 #forge:nuggets/neptunium
 - aquaculture:neptunium_nugget
@@ -3642,6 +4272,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/iron
 - minecraft:iron_block
 
+#create:seats
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
+
 #upgradednetherite:upgraded_netherite_leggings
 - upgradednetherite:gold_upgraded_netherite_leggings
 - upgradednetherite:fire_upgraded_netherite_leggings
@@ -3652,8 +4300,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - upgradednetherite:phantom_upgraded_netherite_leggings
 - upgradednetherite:feather_upgraded_netherite_leggings
 
+#forge:tools/pickaxes
+- minecraft:wooden_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:diamond_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:netherite_pickaxe
+
 #forge:glass_panes/brown
 - minecraft:brown_stained_glass_pane
+
+#create:sandpaper
+- create:sand_paper
+- create:red_sand_paper
 
 #forge:heads
 - minecraft:creeper_head
@@ -3688,6 +4348,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:cooked_squid
 - betteranimalsplus:calamari_cooked
 
+#forge:tools/axes
+- minecraft:wooden_axe
+- minecraft:stone_axe
+- minecraft:iron_axe
+- minecraft:diamond_axe
+- minecraft:golden_axe
+- minecraft:netherite_axe
+
 #upgradednetherite:upgraded_netherite_axe
 - upgradednetherite:gold_upgraded_netherite_axe
 - upgradednetherite:fire_upgraded_netherite_axe
@@ -3717,6 +4385,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/steel
 - immersiveengineering:storage_steel
 
+#create:stone_types/limestone
+- create:cut_limestone
+- create:cut_limestone_stairs
+- create:cut_limestone_wall
+- create:polished_cut_limestone
+- create:polished_cut_limestone_stairs
+- create:polished_cut_limestone_wall
+- create:cut_limestone_bricks
+- create:cut_limestone_brick_stairs
+- create:cut_limestone_brick_wall
+- create:small_limestone_bricks
+- create:small_limestone_brick_stairs
+- create:small_limestone_brick_wall
+- create:layered_limestone
+- create:limestone_pillar
+
 #quark:ladders
 - minecraft:ladder
 - quark:spruce_ladder
@@ -3744,6 +4428,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass_panes
 - #forge:glass_panes/colorless
 - #forge:stained_glass_panes
+- create:tiled_glass_pane
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:vertical_framed_glass_pane
+- create:oak_window_pane
+- create:spruce_window_pane
+- create:birch_window_pane
+- create:jungle_window_pane
+- create:acacia_window_pane
+- create:dark_oak_window_pane
+- create:crimson_window_pane
+- create:warped_window_pane
+- create:ornate_iron_window_pane
 - quark:dirty_glass_pane
 - quark:framed_glass_pane
 - quark:black_framed_glass_pane
@@ -3803,6 +4500,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:crimson_post
 - quark:warped_bookshelf
 - quark:crimson_bookshelf
+
+#forge:raw_bacon
+- farmersdelight:bacon
 
 #forge:dusts/iron
 - immersiveengineering:dust_iron
@@ -3864,8 +4564,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:present_brown?
 
 #forge:mushrooms
-- minecraft:brown_mushroom
-- minecraft:red_mushroom
 - minecraft:red_mushroom
 - minecraft:brown_mushroom
 - minecraft:warped_fungus
@@ -3936,9 +4634,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:brown_mushroom?
 - botania:green_mushroom?
 - botania:red_mushroom?
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
 
 #forge:wires/electrum
 - immersiveengineering:wire_electrum
+
+#forge:vegetables/onion
+- farmersdelight:onion
 
 #minecraft:lapis_ores
 - minecraft:lapis_ore
@@ -3977,6 +4680,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/raw_lead
 - immersiveengineering:raw_block_lead
 
+#nyfsquiver:quiver_items/other
+- #spartanweaponry:bolts?
+
 #quark:big_harvesting_hoes
 - minecraft:diamond_hoe
 - minecraft:netherite_hoe
@@ -4004,9 +4710,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - absentbydesign:fence_red_netherbrick
 - absentbydesign:fence_crimson
 - absentbydesign:fence_warped
+- framedblocks:framed_fence
 - quark:azalea_fence
 - quark:blossom_fence
-- framedblocks:framed_fence
 
 #minecraft:saplings
 - minecraft:oak_sapling
@@ -4017,16 +4723,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_sapling
 - minecraft:azalea
 - minecraft:flowering_azalea
+- biomemakeover:blighted_balsa_sapling
+- biomemakeover:willow_sapling
+- biomemakeover:swamp_cypress_sapling
+- biomemakeover:ancient_oak_sapling
 - quark:blue_blossom_sapling
 - quark:lavender_blossom_sapling
 - quark:orange_blossom_sapling
 - quark:pink_blossom_sapling
 - quark:yellow_blossom_sapling
 - quark:red_blossom_sapling
-- biomemakeover:blighted_balsa_sapling
-- biomemakeover:willow_sapling
-- biomemakeover:swamp_cypress_sapling
-- biomemakeover:ancient_oak_sapling
 
 #forge:ores/copper
 - #minecraft:copper_ores
@@ -4141,12 +4847,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:jungle_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
-- quark:azalea_fence
-- quark:blossom_fence
 - biomemakeover:blighted_balsa_fence
 - biomemakeover:willow_fence
 - biomemakeover:swamp_cypress_fence
 - biomemakeover:ancient_oak_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:cooked_calamari
 - betteranimalsplus:calamari_cooked
@@ -4155,7 +4861,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:sheetmetal_constantan
 
 #forge:cooked_fishes
+- #forge:cooked_fishes/cod
+- #forge:cooked_fishes/salmon
 - betteranimalsplus:eel_meat_cooked
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
 
 #forge:obsidian
 - minecraft:obsidian
@@ -4195,6 +4905,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:ore_uranium
 - immersiveengineering:deepslate_ore_uranium
 
+#nyfsquiver:quiver_items
+- #nyfsquiver:quiver_items/arrows
+- #nyfsquiver:quiver_items/fireworks
+- #nyfsquiver:quiver_items/other
+
 #quark:revertable_trapped_chests
 - quark:oak_trapped_chest
 - quark:spruce_trapped_chest
@@ -4214,8 +4929,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:raw_block_uranium
 
 #forge:cooked_chicken
+- minecraft:cooked_chicken
+- farmersdelight:cooked_chicken_cuts
 - betteranimalsplus:pheasantcooked
 - betteranimalsplus:turkey_leg_cooked
+- minecraft:cooked_chicken
+
+#forge:buckets/honey
+- create:honey_bucket
 
 #forge:raw_materials/copper
 - minecraft:raw_copper
@@ -4268,6 +4989,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:feathers
 - minecraft:feather
 
+#forge:pasta
+- #forge:pasta/raw_pasta
+
 #balm:magenta_dyes
 - #forge:dyes/magenta?
 - minecraft:magenta_dye
@@ -4295,6 +5019,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:string
 - minecraft:string
 
+#forge:grain/rice
+- farmersdelight:rice
+
 #minecraft:trapdoors
 - #minecraft:wooden_trapdoors
 - minecraft:iron_trapdoor
@@ -4310,6 +5037,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - absentbydesign:trapdoor_end_stone
 - absentbydesign:trapdoor_purpur
 - absentbydesign:trapdoor_quartz
+- framedblocks:framed_trapdoor
 - supplementaries:gold_trapdoor
 - supplementaries:netherite_trapdoor
 - supplementaries:silver_trapdoor
@@ -4317,7 +5045,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - snowyspirit:gingerbread_trapdoor
 - quark:azalea_trapdoor
 - quark:blossom_trapdoor
-- framedblocks:framed_trapdoor
 
 #forge:raw_materials/nickel
 - immersiveengineering:raw_nickel
@@ -4336,6 +5063,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:leather
 - minecraft:leather
+
+#forge:cooked_fishes/salmon
+- minecraft:cooked_salmon
+- farmersdelight:cooked_salmon_slice
 
 #forge:glass
 - #forge:glass/colorless
@@ -4415,16 +5146,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:birch_leaves
 - minecraft:azalea_leaves
 - minecraft:flowering_azalea_leaves
+- biomemakeover:blighted_balsa_leaves
+- biomemakeover:willow_leaves
+- biomemakeover:swamp_cypress_leaves
+- biomemakeover:ancient_oak_leaves
 - quark:blue_blossom_leaves
 - quark:lavender_blossom_leaves
 - quark:orange_blossom_leaves
 - quark:pink_blossom_leaves
 - quark:yellow_blossom_leaves
 - quark:red_blossom_leaves
-- biomemakeover:blighted_balsa_leaves
-- biomemakeover:willow_leaves
-- biomemakeover:swamp_cypress_leaves
-- biomemakeover:ancient_oak_leaves
 
 #curios:feet
 - cyclic:flippers?
@@ -4442,8 +5173,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - simplefarming:chocolate?
 - vanillacookbook:chocolate?
 
+#forge:storage_blocks/brass
+- create:brass_block
+
 #forge:crops/potato
 - minecraft:potato
+
+#create:blaze_burner_fuel/special
+- create:blaze_cake
 
 #forge:glass_panes/gray
 - minecraft:gray_stained_glass_pane
@@ -4488,7 +5225,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:golden_hoe
 - minecraft:raw_gold
 - minecraft:raw_gold_block
-- betteranimalsplus:golden_goose_egg
 - upgradednetherite:gold_upgraded_netherite_ingot
 - upgradednetherite:gold_upgraded_netherite_helmet
 - upgradednetherite:gold_upgraded_netherite_chestplate
@@ -4499,6 +5235,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - upgradednetherite:gold_upgraded_netherite_pickaxe
 - upgradednetherite:gold_upgraded_netherite_shovel
 - upgradednetherite:gold_upgraded_netherite_axe
+- farmersdelight:golden_knife
+- betteranimalsplus:golden_goose_egg
 - supplementaries:hourglass
 - supplementaries:gold_door
 - supplementaries:gold_trapdoor
@@ -4506,6 +5244,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:clock_block
 - supplementaries:crimson_lantern
 - supplementaries:key
+- create:golden_sheet
+- create:crushed_gold_ore
 - quark:gold_button
 - quark:gold_bars
 - quark:golden_frog_leg
@@ -4542,14 +5282,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:steel_scaffolding_wooden_top
 
 #curios:head
-- immersiveengineering:earmuffs
 - cyclic:glowing_helmet?
 - cyclic:charm_antipotion?
 - cyclic:charm_boostpotion?
 - cyclic:charm_stone?
+- immersiveengineering:earmuffs
 
 #forge:dusts/aluminum
 - immersiveengineering:dust_aluminum
+
+#forge:storage_blocks/zinc
+- create:zinc_block
 
 #forge:sand/red
 - minecraft:red_sand
@@ -4575,6 +5318,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:dust_gold
 
 #forge:vegetables
+- #forge:vegetables/beetroot
+- #forge:vegetables/carrot
+- #forge:vegetables/onion
+- #forge:vegetables/potato
+- #forge:vegetables/tomato
 - snowyspirit:ginger
 
 #forge:dusts/hop_graphite
@@ -4587,14 +5335,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:birch_logs
 - #minecraft:jungle_logs
 - #minecraft:spruce_logs
-- quark:azalea_log
-- quark:stripped_azalea_log
-- quark:azalea_wood
-- quark:stripped_azalea_wood
-- quark:blossom_log
-- quark:stripped_blossom_log
-- quark:blossom_wood
-- quark:stripped_blossom_wood
 - biomemakeover:blighted_balsa_log
 - biomemakeover:stripped_blighted_balsa_log
 - biomemakeover:blighted_balsa_wood
@@ -4611,6 +5351,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - biomemakeover:stripped_ancient_oak_log
 - biomemakeover:ancient_oak_wood
 - biomemakeover:stripped_ancient_oak_wood
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #forge:rope
 - quark:rope?
@@ -4619,6 +5367,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:wires/lead
 - immersiveengineering:wire_lead
+
+#nyfsquiver:quiver_items/fireworks
+- minecraft:firework_rocket
 
 #forge:jolly_boxes/small_present_common
 - aquaculture:tin_can
@@ -4633,6 +5384,66 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:rawpheasant
 - betteranimalsplus:pheasantraw
+
+#engineersdecor:accepted_mineral_smelter_input
+- minecraft:stone
+- minecraft:granite
+- minecraft:polished_granite
+- minecraft:diorite
+- minecraft:polished_diorite
+- minecraft:andesite
+- minecraft:polished_andesite
+- minecraft:cobblestone
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:sandstone
+- minecraft:chiseled_sandstone
+- minecraft:cut_sandstone
+- minecraft:bricks
+- minecraft:mossy_cobblestone
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
+- minecraft:terracotta
+- minecraft:red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_stone
+- minecraft:smooth_sandstone
+- minecraft:smooth_red_sandstone
+- minecraft:white_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:red_glazed_terracotta
+- minecraft:black_glazed_terracotta
 
 #supplementaries:statue_swords
 - minecraft:wooden_sword?
@@ -4654,18 +5465,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_slab
 - minecraft:crimson_slab
 - minecraft:warped_slab
-- quark:azalea_planks_slab
-- quark:blossom_planks_slab
 - biomemakeover:blighted_balsa_slab
 - biomemakeover:willow_slab
 - biomemakeover:swamp_cypress_slab
 - biomemakeover:ancient_oak_slab
+- quark:azalea_planks_slab
+- quark:blossom_planks_slab
+
+#forge:milk/milk_bottle
+- farmersdelight:milk_bottle
+- vanillacookbook:milk_bottle
 
 #forge:dyes/white
 - minecraft:white_dye
 
 #balm:cooking_oil
 - forge:cookingoil?
+
+#create:toolboxes
+- create:white_toolbox
+- create:orange_toolbox
+- create:magenta_toolbox
+- create:light_blue_toolbox
+- create:yellow_toolbox
+- create:lime_toolbox
+- create:pink_toolbox
+- create:gray_toolbox
+- create:light_gray_toolbox
+- create:cyan_toolbox
+- create:purple_toolbox
+- create:blue_toolbox
+- create:brown_toolbox
+- create:green_toolbox
+- create:red_toolbox
+- create:black_toolbox
 
 #minecraft:small_flowers
 - minecraft:dandelion
@@ -4681,11 +5514,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cornflower
 - minecraft:lily_of_the_valley
 - minecraft:wither_rose
-- betteranimalsplus:trillium
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
 - cyclic:flower_cyan?
 - cyclic:flower_purple_tulip?
 - cyclic:flower_absalon_tulip?
 - cyclic:flower_lime_carnation?
+- betteranimalsplus:trillium
 
 #forge:seeds/pumpkin
 - minecraft:pumpkin_seeds
@@ -4702,6 +5541,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts/redstone
 - minecraft:redstone
 
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
+
 #forge:dyes/pink
 - minecraft:pink_dye
 
@@ -4710,6 +5558,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:gems/quartz
 - minecraft:quartz
+
+#sereneseasons:winter_crops
+- farmersdelight:cabbage_seeds
 
 #forge:crops/beetroot
 - minecraft:beetroot
@@ -5038,16 +5889,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gunpowder
 - minecraft:gunpowder
 
+#forge:plates/brass
+- create:brass_sheet
+
 #forge:raw_pheasant
 - betteranimalsplus:pheasantraw
 
 #forge:ingots/nickel
 - immersiveengineering:ingot_nickel
 
+#forge:crops/tomato
+- farmersdelight:tomato
+
+#create:crushed_ores
+- create:crushed_iron_ore
+- create:crushed_gold_ore
+- create:crushed_copper_ore
+- create:crushed_zinc_ore
+- create:crushed_osmium_ore
+- create:crushed_platinum_ore
+- create:crushed_silver_ore
+- create:crushed_tin_ore
+- create:crushed_lead_ore
+- create:crushed_quicksilver_ore
+- create:crushed_aluminum_ore
+- create:crushed_uranium_ore
+- create:crushed_nickel_ore
+
 #forge:ore_rates/sparse
 - minecraft:nether_gold_ore
 
 #forge:crops
+- #forge:crops/cabbage
+- #forge:crops/onion
+- #forge:crops/rice
+- #forge:crops/tomato
 - #forge:crops/beetroot
 - #forge:crops/carrot
 - #forge:crops/nether_wart
@@ -5061,6 +5937,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ore_bearing_ground/netherrack
 - minecraft:netherrack
+
+#create:stone_types/crimsite
+- create:cut_crimsite
+- create:cut_crimsite_stairs
+- create:cut_crimsite_wall
+- create:polished_cut_crimsite
+- create:polished_cut_crimsite_stairs
+- create:polished_cut_crimsite_wall
+- create:cut_crimsite_bricks
+- create:cut_crimsite_brick_stairs
+- create:cut_crimsite_brick_wall
+- create:small_crimsite_bricks
+- create:small_crimsite_brick_stairs
+- create:small_crimsite_brick_wall
+- create:layered_crimsite
+- create:crimsite_pillar
+
+#farmersdelight:straw_harvesters
+- #farmersdelight:tools/knives
 
 #forge:cookedbeef
 - betteranimalsplus:venisoncooked
@@ -5116,6 +6011,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:blossom_chest
 - quark:azalea_chest
 
+#itemfilters:check_nbt
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+- minecraft:enchanted_book
+- minecraft:tipped_arrow
+
 #forge:ores/silver
 - immersiveengineering:ore_silver
 - immersiveengineering:deepslate_ore_silver
@@ -5165,6 +6067,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cactus
 
 #forge:seeds
+- #forge:seeds/cabbage
+- #forge:seeds/rice
+- #forge:seeds/tomato
 - #forge:seeds/beetroot
 - #forge:seeds/melon
 - #forge:seeds/pumpkin
@@ -5188,6 +6093,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - betteranimalsplus:turkey_leg_raw
 - betteranimalsplus:eel_meat_raw
 - betteranimalsplus:calamari_raw
+
+#create:stone_types/asurine
+- create:cut_asurine
+- create:cut_asurine_stairs
+- create:cut_asurine_wall
+- create:polished_cut_asurine
+- create:polished_cut_asurine_stairs
+- create:polished_cut_asurine_wall
+- create:cut_asurine_bricks
+- create:cut_asurine_brick_stairs
+- create:cut_asurine_brick_wall
+- create:small_asurine_bricks
+- create:small_asurine_brick_stairs
+- create:small_asurine_brick_wall
+- create:layered_asurine
+- create:asurine_pillar
 
 #minecraft:oak_logs
 - minecraft:oak_log
@@ -5241,6 +6162,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:raw_eel
 - betteranimalsplus:eel_meat_raw
 
+#forge:bread
+- #forge:bread/wheat
+
 #curios:belt
 - cyclic:charm_ultimate?
 - cyclic:charm_creeper?
@@ -5272,6 +6196,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:ore_nickel
 - immersiveengineering:deepslate_ore_nickel
 
+#forge:raw_materials/zinc
+- create:raw_zinc
+
 #minecraft:jungle_logs
 - minecraft:jungle_log
 - minecraft:jungle_wood
@@ -5281,8 +6208,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:lectern_books
 - minecraft:written_book
 - minecraft:writable_book
-- immersiveengineering:manual
 - patchouli:guide_book
+- immersiveengineering:manual
 
 #forge:chests/ender
 - minecraft:ender_chest
@@ -5307,6 +6234,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:spruce_wood
 - minecraft:stripped_spruce_log
 - minecraft:stripped_spruce_wood
+
+#create:blaze_burner_fuel/regular
 
 #forge:fence_gates/wooden
 - minecraft:oak_fence_gate
@@ -5338,12 +6267,47 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lime_stained_glass_pane
 
 #forge:shears
-- minecraft:shears
 - cyclic:shears_obsidian?
 - cyclic:shears_flint?
+- minecraft:shears
 
 #sereneseasons:spring_crops
+- farmersdelight:onion
 - supplementaries:flax
+
+#engineersdecor:plain_concretes
+- minecraft:black_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:white_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:black_concrete
+- minecraft:blue_concrete
+- minecraft:brown_concrete
+- minecraft:cyan_concrete
+- minecraft:gray_concrete
+- minecraft:green_concrete
+- minecraft:light_blue_concrete
+- minecraft:light_gray_concrete
+- minecraft:lime_concrete
+- minecraft:magenta_concrete
+- minecraft:orange_concrete
+- minecraft:pink_concrete
+- minecraft:purple_concrete
+- minecraft:red_concrete
+- minecraft:white_concrete
+- minecraft:yellow_concrete
 
 #forge:torches
 - gaiadimension:pyrite_torch?
@@ -5355,6 +6319,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:nugget_steel
 
 #forge:grain
+- #forge:grain/wheat
+- #forge:grain/rice
 - minecraft:wheat
 
 #balm:purple_dyes
@@ -5382,14 +6348,44 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts/electrum
 - immersiveengineering:dust_electrum
 
+#farmersdelight:tools/knives
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
+
+#create:stone_types/ochrum
+- create:cut_ochrum
+- create:cut_ochrum_stairs
+- create:cut_ochrum_wall
+- create:polished_cut_ochrum
+- create:polished_cut_ochrum_stairs
+- create:polished_cut_ochrum_wall
+- create:cut_ochrum_bricks
+- create:cut_ochrum_brick_stairs
+- create:cut_ochrum_brick_wall
+- create:small_ochrum_bricks
+- create:small_ochrum_brick_stairs
+- create:small_ochrum_brick_wall
+- create:layered_ochrum
+- create:ochrum_pillar
+
+#engineersdecor:brick_ingots
+- minecraft:brick
+- minecraft:nether_brick
+
 #minecraft:flowers
 - #minecraft:small_flowers
 - #minecraft:tall_flowers
 - minecraft:flowering_azalea_leaves
 - minecraft:flowering_azalea
-- supplementaries:wild_flax
 - biomemakeover:swamp_azalea
 - biomemakeover:marigold
+- supplementaries:wild_flax
+
+#forge:vegetables/potato
+- minecraft:potato
 
 #forge:wires/steel
 - immersiveengineering:wire_steel
@@ -5403,12 +6399,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_planks
 - minecraft:crimson_planks
 - minecraft:warped_planks
-- quark:azalea_planks
-- quark:blossom_planks
 - biomemakeover:blighted_balsa_planks
 - biomemakeover:willow_planks
 - biomemakeover:swamp_cypress_planks
 - biomemakeover:ancient_oak_planks
+- quark:azalea_planks
+- quark:blossom_planks
 
 #minecraft:fox_food
 - minecraft:sweet_berries
@@ -5465,8 +6461,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/brown
 - minecraft:brown_dye
 
+#forge:seeds/tomato
+- farmersdelight:tomato_seeds
+
 #forge:storage_blocks/gold
 - minecraft:gold_block
+
+#forge:raw_fishes/cod
+- minecraft:cod
+- farmersdelight:cod_slice
 
 #minecraft:fence_gates
 - absentbydesign:gate_purpur
@@ -5503,12 +6506,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:ores/silver
 - #forge:ores/nickel
 - #forge:ores/uranium
+- create:zinc_ore
+- create:deepslate_zinc_ore
 
 #forge:vegetables/ginger
 - snowyspirit:ginger
 
 #forge:rods/steel
 - immersiveengineering:stick_steel
+
+#farmersdelight:wolf_prey
+- #forge:raw_chicken
+- #forge:raw_mutton
+- minecraft:rabbit
 
 #snowyspirit:sleds
 - snowyspirit:sled_oak
@@ -5565,7 +6575,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:azalea_fence
 - quark:blossom_fence
 
+#create:stone_types/dripstone
+- create:cut_dripstone
+- create:cut_dripstone_stairs
+- create:cut_dripstone_wall
+- create:polished_cut_dripstone
+- create:polished_cut_dripstone_stairs
+- create:polished_cut_dripstone_wall
+- create:cut_dripstone_bricks
+- create:cut_dripstone_brick_stairs
+- create:cut_dripstone_brick_wall
+- create:small_dripstone_bricks
+- create:small_dripstone_brick_stairs
+- create:small_dripstone_brick_wall
+- create:layered_dripstone
+- create:dripstone_pillar
+
 #curios:back
+- sophisticatedbackpacks:backpack
+- sophisticatedbackpacks:iron_backpack
+- sophisticatedbackpacks:gold_backpack
+- sophisticatedbackpacks:diamond_backpack
+- sophisticatedbackpacks:netherite_backpack
+- cyclic:quiver_lightning?
+- cyclic:quiver_damage?
+- cyclic:charm_magicdefense?
+- cyclic:charm_invisible?
 - betteranimalsplus:bear_cape_black
 - betteranimalsplus:bear_cape_brown
 - betteranimalsplus:bear_cape_kermode
@@ -5575,16 +6610,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - betteranimalsplus:wolf_cape_timber
 - betteranimalsplus:wolf_cape_red
 - betteranimalsplus:wolf_cape_brown
-- sophisticatedbackpacks:backpack
-- sophisticatedbackpacks:iron_backpack
-- sophisticatedbackpacks:gold_backpack
-- sophisticatedbackpacks:diamond_backpack
-- sophisticatedbackpacks:netherite_backpack
 - immersiveengineering:powerpack
-- cyclic:quiver_lightning?
-- cyclic:quiver_damage?
-- cyclic:charm_magicdefense?
-- cyclic:charm_invisible?
 
 #forge:storage_blocks/diamond
 - minecraft:diamond_block
@@ -5610,6 +6636,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:plates/copper
 - immersiveengineering:plate_copper
+- create:copper_sheet
 
 #forge:ore_bearing_ground/deepslate
 - minecraft:deepslate

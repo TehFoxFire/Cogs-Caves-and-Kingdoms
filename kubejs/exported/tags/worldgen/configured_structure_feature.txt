@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 3, 2022, 9:14:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 9, 2022, 1:15:26 PM
 
 #repurposed_structures:collections/villages
 - repurposed_structures:village_badlands
@@ -52,6 +52,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - repurposed_structures:shipwreck_end
 - repurposed_structures:shipwreck_nether_bricks
 - repurposed_structures:shipwreck_warped
+
+#repurposed_structures:explorer_maps/end_city
+- minecraft:end_city
 
 #terralith:zpointer/minecraft_beach
 - terralith:zpointer/minecraft_beach
@@ -337,6 +340,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - repurposed_structures:mineshaft_taiga
 - repurposed_structures:mineshaft_warped
 
+#repurposed_structures:explorer_maps/nether_fortress
+- minecraft:fortress
+
 #terralith:zpointer/minecraft_lukewarm_ocean
 - terralith:zpointer/minecraft_lukewarm_ocean
 
@@ -398,6 +404,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #terralith:zpointer/terralith_lavender_valley
 - terralith:zpointer/terralith_lavender_valley
 
+#repurposed_structures:explorer_maps/stronghold_end
+- repurposed_structures:stronghold_end
+
 #terralith:zpointer/terralith_alpine_grove
 - terralith:zpointer/terralith_alpine_grove
 
@@ -438,6 +447,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #terralith:zpointer/minecraft_frozen_peaks
 - terralith:zpointer/minecraft_frozen_peaks
 
+#repurposed_structures:explorer_maps/pyramid_end
+- repurposed_structures:pyramid_end
+
 #terralith:zpointer/minecraft_mushroom_fields
 - terralith:zpointer/minecraft_mushroom_fields
 
@@ -464,6 +476,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #terralith:zpointer/terralith_skylands_autumn
 - terralith:zpointer/terralith_skylands_autumn
+
+#repurposed_structures:explorer_maps/ruins_nether
+- repurposed_structures:ruins_nether
 
 #terralith:zpointer/terralith_sakura_grove
 - terralith:zpointer/terralith_sakura_grove
@@ -493,6 +508,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #terralith:zpointer/minecraft_snowy_taiga
 - terralith:zpointer/minecraft_snowy_taiga
+
+#repurposed_structures:explorer_maps/city_nether
+- repurposed_structures:city_nether
+
+#repurposed_structures:explorer_maps/bastion_remnant
+- minecraft:bastion_remnant
 
 #terralith:zpointer/terralith_blooming_valley
 - terralith:zpointer/terralith_blooming_valley
@@ -582,6 +603,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #terralith:zpointer/terralith_cold_shrubland
 - terralith:zpointer/terralith_cold_shrubland
 
+#repurposed_structures:explorer_maps/bastion_underground
+- repurposed_structures:bastion_underground
+
 #terralith:zpointer/minecraft_river
 - terralith:zpointer/minecraft_river
 
@@ -630,6 +654,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #terralith:zpointer/minecraft_dripstone_caves
 - terralith:zpointer/minecraft_dripstone_caves
+
+#repurposed_structures:explorer_maps/stronghold_nether
+- repurposed_structures:stronghold_nether
 
 #terralith:zpointer/terralith_wintry_forest
 - terralith:zpointer/terralith_wintry_forest

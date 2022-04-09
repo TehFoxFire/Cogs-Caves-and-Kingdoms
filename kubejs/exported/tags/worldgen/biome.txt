@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 3, 2022, 9:14:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 9, 2022, 1:15:26 PM
 
 #repurposed_structures:has_structure/pyramids/nether
 - #repurposed_structures:collections/nether
@@ -650,6 +650,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #repurposed_structures:collections/end_island_land
 
 #minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest
+- terralith:sakura_grove
 
 #repurposed_structures:has_structure/villages/birch
 - #repurposed_structures:collections/birch_forests

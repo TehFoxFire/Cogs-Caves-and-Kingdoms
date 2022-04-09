@@ -1,14 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 3, 2022, 9:14:43 PM
-
-#supplementaries:eats_fodder
-- minecraft:pig?
-- minecraft:cow?
-- minecraft:sheep?
-- minecraft:chicken?
-- minecraft:goat?
-- minecraft:mooshroom?
-- autumnity:snail?
-- alexsmobs:raccoon?
+To refresh this file, delete it and run /reload command again! Last updated: Apr 9, 2022, 1:15:27 PM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -29,17 +19,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - eanimod:enhanced_pig?
 - eanimod:enhanced_mooshroom?
 
-#supplementaries:tickable_when_captured
-- minecraft:endermite?
-- feywild:spring_pixie?
-- feywild:autumn_pixie?
-- feywild:summer_pixie?
-- feywild:winter_pixie?
-- alexsmobs:mimicube?
-- iceandfire:pixie?
-- druidcraft:lunar_moth?
-- druidcraft:dreadfish?
-
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
 - minecraft:guardian
@@ -51,16 +30,96 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snow_golem
 - minecraft:wither
 
+#biomemakeover:lightning_bugs
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
+
+#biomemakeover:owl_targets
+- minecraft:rabbit
+- minecraft:chicken
+- minecraft:silverfish
+- minecraft:endermite
+- minecraft:bat
+- biomemakeover:toad
+- biomemakeover:blightbat
+- biomemakeover:dragonfly
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
+
+#snowyspirit:sled_pullers
+- minecraft:wolf
+- minecraft:fox
+- quark:shiba?
+- quark:foxhound?
+- alexsmobs:grizzly_bear?
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- biomemakeover:adjudicator
+- hunterillager:hunterillager
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+- snowyspirit:sled
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+- biomemakeover:glowfish
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#domesticationinnovation:petstore_fishtank
+- minecraft:tropical_fish
+
+#supplementaries:eats_fodder
+- minecraft:pig?
+- minecraft:cow?
+- minecraft:sheep?
+- minecraft:chicken?
+- minecraft:goat?
+- minecraft:mooshroom?
+- autumnity:snail?
+- alexsmobs:raccoon?
+
+#supplementaries:tickable_when_captured
+- minecraft:endermite?
+- feywild:spring_pixie?
+- feywild:autumn_pixie?
+- feywild:summer_pixie?
+- feywild:winter_pixie?
+- alexsmobs:mimicube?
+- iceandfire:pixie?
+- druidcraft:lunar_moth?
+- druidcraft:dreadfish?
+
 #supplementaries:flute_pet
 - minecraft:horse?
 - minecraft:llama?
 - minecraft:mule?
 - minecraft:donkey?
 - minecraft:fox?
-
-#biomemakeover:lightning_bugs
-- biomemakeover:lightning_bug
-- biomemakeover:lightning_bug_alternate
 
 #supplementaries:jar_tinted_catchable
 - minecraft:slime?
@@ -115,22 +174,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:beehive_inhabitors
 - minecraft:bee
 
-#biomemakeover:owl_targets
-- minecraft:rabbit
-- minecraft:chicken
-- minecraft:silverfish
-- minecraft:endermite
-- minecraft:bat
-- biomemakeover:toad
-- biomemakeover:blightbat
-- biomemakeover:dragonfly
-- biomemakeover:lightning_bug
-- biomemakeover:lightning_bug_alternate
-
 #minecraft:skeletons
 - minecraft:skeleton
 - minecraft:stray
 - minecraft:wither_skeleton
+
+#domesticationinnovation:infamy_target_attracted
+- minecraft:drowned
+- minecraft:husk
+- minecraft:zombie_villager
+- minecraft:zombie
+- minecraft:vex
+- minecraft:spider
+- minecraft:slime
+- minecraft:ghast
+- minecraft:cave_spider
+- minecraft:silverfish
+- minecraft:blaze
+- minecraft:magma_cube
+- minecraft:wither
+- minecraft:endermite
+- minecraft:shulker
+- minecraft:phantom
+- #minecraft:raiders
+- #minecraft:skeletons
+
+#domesticationinnovation:petstore_cage_3
+- minecraft:parrot
 
 #supplementaries:jar_catchable
 - minecraft:slime?
@@ -166,33 +236,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tconstruct:sky_slime?
 - twilightforest:maze_slime?
 
+#domesticationinnovation:petstore_cage_2
+- minecraft:fox
+
 #minecraft:arrows
 - minecraft:arrow
 - minecraft:spectral_arrow
 - supplementaries:rope_arrow
-
-#snowyspirit:sled_pullers
-- minecraft:wolf
-- minecraft:fox
-- quark:shiba?
-- quark:foxhound?
-- alexsmobs:grizzly_bear?
 
 #minecraft:freeze_hurts_extra_types
 - minecraft:strider
 - minecraft:blaze
 - minecraft:magma_cube
 
-#minecraft:raiders
-- minecraft:evoker
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:vindicator
-- minecraft:illusioner
-- minecraft:witch
-- hunterillager:hunterillager
-- biomemakeover:adjudicator
-- enchantwithmob:enchanter
+#domesticationinnovation:petstore_cage_1
+- minecraft:rabbit
+
+#domesticationinnovation:petstore_cage_0
+- minecraft:wolf
+- minecraft:cat
+- minecraft:rabbit
 
 #supplementaries:cage_catchable
 - minecraft:slime?
@@ -350,19 +413,3 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - fins:white_bull_crab?
 - habitat:pooka?
 - habitat:passerine?
-
-#minecraft:powder_snow_walkable_mobs
-- minecraft:rabbit
-- minecraft:endermite
-- minecraft:silverfish
-- minecraft:fox
-- snowyspirit:sled
-
-#minecraft:axolotl_hunt_targets
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:salmon
-- minecraft:cod
-- minecraft:squid
-- minecraft:glow_squid
-- biomemakeover:glowfish
