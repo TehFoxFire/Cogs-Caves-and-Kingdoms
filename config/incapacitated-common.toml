@@ -4,7 +4,7 @@
 	#A list of comma separated item IDs for foods player can eat to revive themselves. IE: minecraft:enchanted_golden_apple,minecraft:apple
 	foodReviveList = "minecraft:enchanted_golden_apple"
 	#A list of comma separated item IDs for foods player can eat to reset their down counters. IE: minecraft:golden_apple,minecraft:golden_carrot
-	foodHealList = "minecraft:golden_apple"
+	foodHealList = "minecraft:golden_apple, minecraft:golden_carrot"
 	#How many ticks a player can be downed without dying.
 	#Range: > 20
 	downTicks = 2000

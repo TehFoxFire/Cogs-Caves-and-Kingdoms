@@ -1,8 +1,8 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -49,7 +49,7 @@
 	Chute = true
 	"Dispensers Place Blocks" = true
 	"Redstone Randomizer" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Iron Rod" = true
 	"Metal Buttons" = true
 	"Chains Connect Blocks" = true
@@ -60,7 +60,7 @@
 		#Allowed values: [1,)
 		Cooldown = 30
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
-		"Max Animals" = 32
+		"Max Animals" = 64
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
 		#Allowed values: (0,1]
 		"Love Chance" = 0.333333333
@@ -114,7 +114,7 @@
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
 		#Note that ropes will still use the same blacklist.
-		"Force Enable Move Tile Entities" = false
+		"Force Enable Move Tile Entities" = true
 		"Enable Dispenser Behavior" = true
 
 	[building.industrial_palette]
@@ -153,9 +153,9 @@
 		"Enable Stick Block" = true
 		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
@@ -317,7 +317,7 @@
 		"Drop On Spider Kill" = true
 
 	[tools.endermosh_music_disc]
-		"Play Endermosh During Enderdragon Fight" = false
+		"Play Endermosh During Enderdragon Fight" = true
 		"Add To End City Loot" = true
 		"Loot Weight" = 5
 		"Loot Quality" = 1
@@ -416,7 +416,7 @@
 	"Enhanced Ladders" = true
 	"Better Elytra Rocket" = true
 	"Skull Pikes" = true
-	"Vexes Die With Their Masters" = true
+	"Vexes Die With Their Masters" = false
 	"Grab Chickens" = true
 
 	[tweaks.utility_recipes]
@@ -479,7 +479,7 @@
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = false
+		"Requires Empty Hand" = true
 
 	[tweaks.more_banner_layers]
 		#Allowed values: [1,16]
@@ -516,7 +516,7 @@
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
-		"Disable Recipe Book" = false
+		"Disable Recipe Book" = true
 		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
 		"Filter Recipe Advancements" = true
 
@@ -1442,7 +1442,7 @@
 	"Back Button Keybind" = true
 	"Usage Ticker" = true
 	"Variant Animal Textures" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Chest Searching" = true
 	"Uses For Curses" = true
 
@@ -1493,7 +1493,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1548,7 +1548,7 @@
 [oddities]
 	Pipes = true
 	Crate = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	"Totem Of Holding" = true
 	"Tiny Potato" = true

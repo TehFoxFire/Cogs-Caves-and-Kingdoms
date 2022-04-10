@@ -84,7 +84,7 @@
 		#Allows the player to directly drink from jar items
 		drink_from_jar_item = false
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = false
+		jar_auto_detect = true
 		#Allow Jars to capture small mobs
 		jar_capture = true
 		#Allow Jars to hold cookies
@@ -98,7 +98,7 @@
 		#Allows all baby mobs to be captured by cages
 		cage_allow_all_babies = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
 		persistent_mobs = false
 		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
@@ -118,14 +118,14 @@
 		sack_penalty = true
 		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
 		#Range: 0 ~ 50
-		sack_increment = 2
+		sack_increment = 3
 		#How many slots should a sack have
 		#Range: 1 ~ 27
 		slots = 9
 
 	[blocks.safe]
 		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = false
+		prevent_breaking = true
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = false
@@ -356,7 +356,7 @@
 		#Range: 0.0 ~ 5.0
 		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
+		mixed_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -405,7 +405,7 @@
 		unbound_radius = 64
 		#Max distance at which a bound flute will allow a pet to teleport
 		#Range: 0 ~ 500
-		bound_distance = 64
+		bound_distance = 256
 
 	[items.bomb]
 		#Bomb explosion radius (damage depends on this)
