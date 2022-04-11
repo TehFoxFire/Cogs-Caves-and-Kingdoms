@@ -8,5 +8,5 @@
 
 ["Trail Values 6464"]
 	#Trail Block String 6464
-	defaultTrailBlocksActual = "minecraft:cut_copper_slab,11;minecraft:tall_grass,-30;minecraft:exposed_cut_copper_slab,11;minecraft:fern,-11;minecraft:grass,-11;minecraft:diamond_block,99;minecraft:water,11;minecraft:dirt_path,11;minecraft:stone_brick_slab,11;minecraft:weathered_cut_copper_slab,11;minecraft:stone_bricks,11;minecraft:large_fern,-30;minecraft:sand,-11;minecraft:gravel,11;minecraft:cobblestone,11;"
+	defaultTrailBlocksActual = "supplementaries:raked_gravel,12;minecraft:cut_copper_slab,11;minecraft:tall_grass,-30;minecraft:exposed_cut_copper_slab,11;minecraft:fern,-11;minecraft:grass,-11;minecraft:diamond_block,99;minecraft:water,11;minecraft:dirt_path,11;minecraft:stone_brick_slab,11;minecraft:weathered_cut_copper_slab,11;minecraft:stone_bricks,11;minecraft:large_fern,-30;minecraft:sand,-11;minecraft:gravel,11;minecraft:cobblestone,11;"
 
